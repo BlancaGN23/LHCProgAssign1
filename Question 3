@@ -1,0 +1,9 @@
+//“If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these
+multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.”
+
+//first, will need a loop that will go through the first 10 numbers
+//during this loop, each number will need to be checked to see if it is a multiple of 3, 5, 6, or 9
+//to do this, check to see if it's remainder when divided by any of these numbers is = 0
+//if the remainder is 0, it is a multiple
+//then add this multiple to a running sum
+//move onto the next number
