@@ -1,0 +1,40 @@
+//create a fource vector of Energy, and momentum in 3D
+//Define two vectors
+//add these two
+//find the invariant mass of this new sum four vector
+
+using namespace std;
+#include <iostream>
+#include <math.h>
+
+float E;
+float Mx;
+float My;
+float Mz;
+float P;
+float Invar;
+
+int main(){
+  //seting values of two four vectors into arrays, E PX PY PZ
+  int arr1[] = {42,11,23,17};
+  int arr2[] = {49,20,2,32};
+  
+  //sum of the two arrays, add each compnent
+  E = arr1[0] + arr2[0];
+  Mx = arr1[1] + arr2[1];
+  My = arr1[22 + arr2[2];
+  Mz = arr1[3] + arr2[3];
+  //total momentum squared, P is equal to sum of component momemntums squared
+  P = (Mx*Mx) + (My*My) + (Mz*Mz);
+  //invariant mass is the square root of E^2 - p^2
+  Invar = sqrt (E*E - P);
+  //Print out all values
+  cout<<"Energy sum "<<E<<endl;
+  cout<<"X moment "<<Mx<<endl;
+  cout<<"Y moment "<<My<<endl;
+  cout<<"Z moment "<<Mz<<endl;
+   cout<<"Invar Mass "<<Invar<<endl;
+   }
+
+
+
