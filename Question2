@@ -1,0 +1,22 @@
+//use program to take two input arguments from terminal line
+//the program expects two, should then print them out
+//what happens if you put less than expected?
+
+//Couldn't figure out how to get the code from lxplus, so I created a script that would take inputs anad print them out
+//this code expects 2 arguments, since the index i is from 0-1
+//if more than two arguments are entered, they are simply omitted, 
+//with the first argument being the file name, and the second argument printed is the first entered 
+//if the program expects more arguments that are inputed, only those entered are printed
+
+using namespace std;
+#include <iostream>
+
+int main(int argc, char** argv){
+//for loops to print only two arguments
+//to print all arguments input, change i<1 to i<argc , so the loop continues as long as the index is less than arguments entered
+  for (int i = 0; i<1; ++i)
+    cout<<argv[i]<<endl;
+    return 0;
+    }
+    
+    
