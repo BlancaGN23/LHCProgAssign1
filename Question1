@@ -1,0 +1,16 @@
+//what does the header <iostream> do?
+#include <iostream>
+
+//It is a "predefined library function used for input output, containing functions of program like cout, cin, etc
+
+
+
+
+//For example: the program
+
+int main(){
+cout<<"Hello World!"<<endl;
+}
+
+//would normally print out "Hello World!" to the terminal command line
+//by not including the header, COUT, as well as ENDL are not recognized or "not declared in this scope"
